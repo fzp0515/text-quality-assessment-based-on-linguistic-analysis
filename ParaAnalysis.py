@@ -1,9 +1,5 @@
 from SentenceAnalysis import SentenceAnalysis
 from ltp import StnSplit
-
-
-
-
 class ParagraphAnalysis:
     def __init__(self, text,task):
         self.unsplitted_text=text
